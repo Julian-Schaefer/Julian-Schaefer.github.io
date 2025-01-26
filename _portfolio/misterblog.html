@@ -1,0 +1,20 @@
+---
+title: "MisterBlog"
+excerpt: "Create a unified news feed of all your favorite blogs and websites.<br /><img
+    style='margin-top: 10px; border: 1px solid gray;' src='/images/misterblog.png'>"
+collection: portfolio
+---
+
+MisterBlog is a tool that allows you to create a unified news feed of all your favorite blogs and websites. It
+supports RSS feeds as well as raw HTML pages. To support HTML pages, I trained a custom graph neural network to identify
+the articles of web pages. For that, I treated the HTML tree as a graph and used pytorch and pytorch geometric to train
+a GNN based on a self-created labeled dataset.
+<br /><br />
+The Frontend is built with Angular and uses Redux for state management. The backend is built with Python and Flask.
+
+<br /><br />
+You can try it out <a href="https://misterblog-frontend-production-797738042746.europe-west3.run.app/"
+    target="_blank">here</a>.
+
+<a href="https://misterblog-frontend-production-797738042746.europe-west3.run.app/" target="_blank"><img
+        style='margin-top: 20px; border: 1px solid gray;' src='/images/misterblog.png' /></a>

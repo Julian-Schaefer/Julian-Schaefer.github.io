@@ -6,8 +6,8 @@
 
 main:    
     
-#  - title: "Projects"
-#  url: /portfolio/
+  - title: "Projects"
+    url: /portfolio/
         
   - title: "My CV"
     url: /files/Resume_Julian_David_Schaefer.pdf
